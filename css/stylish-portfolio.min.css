@@ -1,9 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700);
+ 
+body {
+  background: #fff;
+  color: #000;
+  margin: 0;
+}
+ 
+.tiles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+ 
+.tile {
+  position: relative;
+  float: left;
+  width: 33.333%;
+  height: 100%;
+  overflow: hidden;
+}
+ 
+.photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: transform .5s ease-out;
+}
+ 
+.txt {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  bottom: 10%;
+  left: 0;
+  font-family: 'Roboto Slab', serif;
+  font-size: 9px;
+  line-height: 12px;
+  text-align: center;
+  cursor: default;
+}
+ 
+.x {
+  font-size: 32px;
+  line-height: 32px;
+}
+
+
+
+#success_message{ display: none;}
+
+#video-background {
+	/*  making the video fullscreen  */
+	  /* position: fixed; */
+	  right: 0; 
+	  bottom: 0;
+	  min-width: 98%; 
+	  min-height: 100%;
+	  width: auto; 
+	  height: auto;
+	  z-index: -100;
+	}
+.aos-all {
+  width: 1000px;
+  max-width: 98%;
+  margin: 10vh auto 0 auto;
+}
+#nav-overlay {
+	/* margin-left:3%; */
+	/* margin-right:.5%; */
+	position: absolute; 
+	top: 3%; 
+	color: black; 
+	text-align: center;
+	font-size: 20px;
+	/* background-color: rgba(221, 221, 221, 0.3); */
+	/* width: 25%;
+	padding: 10px 0; */
+	z-index: 2147483647;
+  }
+
+#overlay {
+	margin-left:37.5%;
+	position: absolute; 
+	top: 30%; 
+	color: white; 
+	text-align: center;
+	font-size: 20px;
+	background-color: rgba(0, 0, 0, 0.2);
+	width: 25%;
+	padding: 10px 0;
+	z-index: 2147483647;
+	padding-left:1%;
+	padding-right:1%;
+  }
+  
+  #v {
+	z-index: 1;
+  }
+
+.aos-item {
+  display: inline-block;
+  float: left;
+  width: 33.3333%;
+  height: 300px;
+  padding: 20px;
+}
+
+.aos-item__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  float: left;
+  background: #1da4e2;
+  line-height: 260px;
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+  .aos-item {
+    width: 50%;
+  }
+}
+
 body, html {
 	width: 100%;
-	height: 100%
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
 }
 body {
-	font-family: 'Source Sans Pro'
+	font-family: 'Roboto', sans-serif;
 }
 .btn-xl {
 	padding: 1.25 rem 2.5 rem
@@ -65,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
 	height: auto;
 	padding-top: 8rem;
 	padding-bottom: 8rem;
-	background: linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%), url(../img/bg-robobunnyrender.png);
+	/* background: linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%), url(../img/bg-robobunnyrender.png); */
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover
@@ -95,7 +228,7 @@ h1, h2, h3, h4, h5, h6 {
 	-o-transition: all .4s ease 0s;
 	transition: all .4s ease 0s;
 	transform: translateX(250px);
-	background: #1d809f;
+	background: white;
 	border-left: 1px solid rgba(255,255,255,.1)
 }
 .sidebar-nav {
@@ -109,13 +242,14 @@ h1, h2, h3, h4, h5, h6 {
 .sidebar-nav li.sidebar-nav-item a {
 	display: block;
 	text-decoration: none;
-	color: #fff;
+	color: black;
 	padding: 15px
 }
 .sidebar-nav li a:hover {
 	text-decoration: none;
-	color: #fff;
-	background: rgba(255,255,255,.2)
+	color: rgba(52,58,64);;
+	/* background: rgba(255,255,255,.2) */
+	background: rgb(29, 164, 226, .2);
 }
 .sidebar-nav li a:active, .sidebar-nav li a:focus {
 	text-decoration: none
@@ -255,7 +389,7 @@ footer.footer .social-link {
 	height: 4rem;
 	width: 4rem;
 	line-height: 4.3 rem;
-	font-size: 1.5 rem;
+	font-size: 200 rem;
 	background-color: #1d809f;
 	transition: background-color .15s ease-in-out;
 	box-shadow: 0 3px 3px 0 rgba(0,0,0,.1)

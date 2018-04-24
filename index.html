@@ -1,69 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117763972-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117763972-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-	  gtag('config', 'UA-117763972-1');
-	</script>
-	
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    gtag('config', 'UA-117763972-1');
+  </script>
 
-    <title>Blake Nischwitz - 3D Artist and Game Devloper</title>
+  <link rel="stylesheet" href="node_modules/aos/dist/aos.css" />
+  <script src="node_modules/aos/dist/aos.js"></script>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-    
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Blake Nischwitz - 3D Artist and Game Devloper</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+    type="text/css">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
   <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
 
-  </head>
+</head>
 
-  <body id="page-top">
-    <!-- Navigation -->
-    <a class="menu-toggle rounded" href="#">
-      <i class="fa fa-bars"></i>
-    </a>
-    <nav id="sidebar-wrapper">
-      <ul class="sidebar-nav">
+<body id="page-top">
 
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#page-top">Home</a>
-        </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="pages/3d-art.html">3D Art</a>
-        </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="pages/vr-development.html">VR Development</a>
-        </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="pages/other.html">Fun Projects</a>
-        </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="pages/contact.html">Contact</a>
-        </li>
-      </ul>
-    </nav>
+  <script>
+    AOS.init();
+  </script>
+  <!-- Navigation -->
+  <a class="menu-toggle rounded" href="#" id="nav-overlay">
+    <i class="fa fa-bars" style="color:white;"></i>
+  </a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
 
-    <!-- Header -->
-    <header class="masthead d-flex">
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#page-top">Home</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#about">About</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#3d-art">3D Art</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#vr">VR Development</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#fun">Fun Projects</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <!-- <header class="masthead d-flex">
       <div class="container text-center my-auto" style="color:white;">
         <h1 class="mb-1" style="color:white;">Blake Nischwitz</h1>
         <h3 class="mb-5">
@@ -72,24 +86,228 @@
         <a class="js-scroll-trigger" href="#about"><span class="glyphicon glyphicon-menu-down" style="color:white;"></span></a>       
         </div>
       <div class="overlay"></div>
-    </header>
+    </header> -->
+  <header>
+    <div id="v">
+      <video autoplay loop id="video-background" muted plays-inline>
+        <source src="img/Level Design Flythrough.mp4" type="video/mp4">
+      </video>
 
-    <!-- About -->
-    <section class="content-section bg-light" id="about">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-            <p class="lead mb-5">This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at
-              <a href="https://unsplash.com/">Unsplash</a>!</p>
-            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What We Offer</a>
+    </div>
+    <div id="overlay" class="text-center" style="margin-top:5%;">
+      <!-- <div class='main'>
+              <div class='head'>
+                <h1>Blake Nischwitz</h1>
+              </div>
+              <div>
+
+              </div> -->
+      <!-- <h1 class="mb-1" style="text-align:center;">Blake Nischwitz</h1>
+      <h3 class="mb-5" style=" color:	#1da4e2;">
+        3D Artist and Game Developer
+      </h3> -->
+
+  </header>
+
+  <!-- About -->
+
+  <section class="content-section bg-light" id="about">
+    <div class="container text-center">
+      <div class="row" style="margin-top:10%; margin-bottom:10%;">
+        <div class="col-lg-10 mx-auto">
+          <h2>It me!</h2>
+          <p class="lead mb-5">I'm a 3D Artist and Game Developer from Dayton, Ohio. I studied Interactive Media Studies at Miami University in
+            Oxford, Ohio. I'm currently finishing my degree in San Francisco, California while I intern with New Path VR.
+            I'm currently looking for full-time employment after graduation working in VR or 3D art.
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <section>
+    <div class="row">
+        <div class="col-sm-2" >
+          </div>
+          <div class="col-sm-4" >
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+        </div>
+      </div>
+    </section> -->
+  <section id="3d-art" style="padding-top:10%;">
+    <h2 class="text-center">3D Art</h2>
+    <div class="row">
+      <div id="transcroller-body" class="aos-all">
+        <div class="aos-item" data-aos="zoom-in">
+          <div class="aos-item__inner">
+            <h3>1</h3>
+          </div>
+        </div>
+        <div class="aos-item" data-aos="zoom-in">
+          <div class="aos-item__inner">
+            <h3>2</h3>
+          </div>
+        </div>
+        <div class="aos-item" data-aos="zoom-in">
+          <div class="aos-item__inner">
+            <h3>3</h3>
+          </div>
+        </div>
+        <div class="aos-item" data-aos="zoom-in">
+          <div class="aos-item__inner">
+            <h3>4</h3>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Portfolio -->
-    <!-- <section class="content-section" id="portfolio">
+  <section id="vr" style="padding-top:10%;">
+    <h2 class="text-center">VR</h2>
+    <div class="row">
+      <div id="transcroller-body" class="aos-all">
+        <div class="aos-item" data-aos="zoom-in">
+          <div class="aos-item__inner">
+            <h3>1</h3>
+          </div>
+        </div>
+        <div class="aos-item" data-aos="zoom-in">
+          <div class="aos-item__inner">
+            <h3>2</h3>
+          </div>
+        </div>
+        <div class="aos-item" data-aos="zoom-in">
+          <div class="aos-item__inner">
+            <h3>3</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="fun" style="padding-top:10%;">
+    <h2 class="text-center">Other Projects</h2>
+    <div class="row">
+      <div id="transcroller-body" class="aos-all">
+        <div class="aos-item" data-aos="zoom-in">
+          <div class="aos-item__inner">
+            <h3>1</h3>
+          </div>
+        </div>
+        <div class="aos-item" data-aos="zoom-in">
+          <div class="aos-item__inner">
+            <h3>2</h3>
+          </div>
+        </div>
+        <div class="aos-item" data-aos="zoom-in">
+          <div class="aos-item__inner">
+            <h3>3</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="text-center" style="margin-top:10%; margin-bottom:5%;">Contact Me</h2>
+    <div data-aos="fade-up">
+
+      <div class="container" style="margin-top:5%; width:65%;">
+
+        <form class="form-horizontal" action="mailto:belangej@miamioh.edu" method="post" id="contact_form">
+          <fieldset>
+
+            <!-- Form Name -->
+            <!-- <legend class="text-center">Contact Me</legend> -->
+
+            <!-- Text input-->
+
+            <div class="form-group">
+              <label class="col-md-3 control-label">First Name</label>
+              <div class="col-md-6 inputGroupContainer">
+                <div class="input-group">
+                  <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-user"></i>
+                  </span>
+                  <input name="first_name" placeholder="First Name" class="form-control" type="text">
+                </div>
+              </div>
+            </div>
+
+            <!-- Text input-->
+
+            <div class="form-group">
+              <label class="col-md-3 control-label">Last Name</label>
+              <div class="col-md-6 inputGroupContainer">
+                <div class="input-group">
+                  <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-user"></i>
+                  </span>
+                  <input name="last_name" placeholder="Last Name" class="form-control" type="text">
+                </div>
+              </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-3 control-label">E-Mail</label>
+              <div class="col-md-6 inputGroupContainer">
+                <div class="input-group">
+                  <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-envelope"></i>
+                  </span>
+                  <input name="email" placeholder="E-Mail Address" class="form-control" type="text">
+                </div>
+              </div>
+            </div>
+
+            <!-- Text area -->
+            <div class="form-group">
+              <label class="col-md-3 control-label">Message</label>
+              <div class="col-md-6 inputGroupContainer">
+                <div class="input-group">
+                  <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-pencil"></i>
+                  </span>
+                  <textarea class="form-control" name="comment" placeholder="Message"></textarea>
+                </div>
+              </div>
+            </div>
+
+            <!-- Success message -->
+            <div class="alert alert-success" role="alert" id="success_message">Success
+              <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div>
+
+            <!-- Button -->
+            <div class="form-group text-center" style="padding-top:3%;">
+              <label class="col-md-4 control-label"></label>
+              <div class="col-md-4">
+                <button type="submit" class="btn btn-primary">Send
+                  <span class="glyphicon glyphicon-send"></span>
+                </button>
+              </div>
+            </div>
+
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <!-- /.container -->
+    </div>
+  </section>
+
+  <section>
+    <p class="text-muted text-center mb-0" style="padding-top:5%;">Copyright &copy; Blake Nischwitz</p>
+  </section>
+
+
+  <!-- Portfolio -->
+  <!-- <section class="content-section" id="portfolio">
       <div class="container">
         <div class="content-section-heading text-center">
           <h3 class="text-secondary mb-0">Portfolio</h3>
@@ -144,45 +362,21 @@
       </div>
     </section> -->
 
-    <!-- Footer -->
-    <footer class="footer text-center">
-      <div class="container">
-        <ul class="list-inline mb-5">
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="#">
-              <i class="icon-social-facebook"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="#">
-              <i class="icon-social-twitter"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white" href="#">
-              <i class="icon-social-github"></i>
-            </a>
-          </li>
-        </ul>
-        <p class="text-muted small mb-0">Copyright &copy; Blake Nischwitz</p>
-      </div>
-    </footer>
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+    <i class="fa fa-angle-up"></i>
+  </a>
 
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-      <i class="fa fa-angle-up"></i>
-    </a>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <!-- Custom scripts for this template -->
+  <script src="js/stylish-portfolio.min.js"></script>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/stylish-portfolio.min.js"></script>
-
-  </body>
+</body>
 
 </html>
