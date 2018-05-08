@@ -22,6 +22,7 @@ Online art portfolio for 3D modeling and game design
 - [ ] Navigation
 - [ ] Colors??
 - [ ] Contact/Social Media
+- [ ] Thumbnail images
 
 ### Other
 - [ ] Clean up JS files
