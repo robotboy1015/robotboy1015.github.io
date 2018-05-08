@@ -109,6 +109,11 @@ body {
   background-size: cover;
   transition: transform .5s ease-out;
 }
+
+#page-style {
+	margin:5%; 
+	font-size: 1.2em;
+}
  
 .txt {
   position: absolute;
