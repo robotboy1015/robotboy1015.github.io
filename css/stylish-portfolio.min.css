@@ -1,5 +1,76 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700);
- 
+
+
+.aboutme {
+	/* background-image: url("../img/pipboynotext.png");
+	height: 100%; */
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizelegibility;
+  }
+  
+  html,
+  body {
+	height: 100%;
+  }
+  
+  /* body {
+	font-family: 'Open Sans', sans-serif;
+  } */
+  
+  .text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 250px;
+	z-index: 10;
+  }
+  
+  svg {
+	width: 75%;
+	height: inherit;
+	margin-top:15%;
+	margin-left:15%;
+  }
+  svg text {
+	text-anchor: middle;
+  }
+  svg #alpha {
+	fill: #666666;
+  }
+  svg #title {
+	letter-spacing: -2px;
+	font-size: 6em;
+	font-weight: 800;
+  }
+  svg #subtitle {
+	letter-spacing: 8px;
+	font-size: 1.2em;
+	font-weight: 300;
+	text-transform: uppercase;
+  }
+  svg #base {
+	fill: black;
+	-webkit-mask: url(#mask);
+			mask: url(#mask);
+  }
+  
+  /* section.intro {
+	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/953/mision.jpg) no-repeat top center;
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	min-height: 100%;
+  } */
+  
+  /*@keyframes alpha {
+	50%{fill: #000;}
+  }*/
+  
 body {
   background: #fff;
   color: #000;
@@ -7,8 +78,8 @@ body {
 }
  
 .tiles {
-  position: absolute;
-  top: 0;
+  position: relative;
+  /* top: 25%; */
   left: 0;
   width: 100%;
   height: 100%;
@@ -17,9 +88,14 @@ body {
 .tile {
   position: relative;
   float: left;
-  width: 33.333%;
+  width: 25%;
   height: 100%;
   overflow: hidden;
+}
+
+#typedtext {
+	font-family: Roboto;
+	font-size: 1.5em;
 }
  
 .photo {
@@ -51,19 +127,24 @@ body {
   font-size: 32px;
   line-height: 32px;
 }
-#first {
-	border-top-color:#555199;
+label, glyphicon {
+	color:#001D60;
 }
+.btn-blue{
+	background-color:#3A5CAC;
+	color: white;
+}
+
 hr {
     display: block;
     height: 2%;
     border: 0;
-    border-top: 1px solid #E80202;
+    border-top: 1px solid #D39E0A;
     /* margin: 1em 0; */
-    padding: 0; 
-    width:10%;
-    text-align:center; margin: 1% auto;
-    position:center;
+	padding: 0; 
+	width:10%;
+	text-align:center; margin: 1% auto;
+	position:center;
 }
 
 
@@ -80,6 +161,18 @@ hr {
 	  height: auto;
 	  z-index: -100;
 	}
+
+	#video-background2 {
+		/*  making the video fullscreen  */
+		  /* position: fixed; */
+		  right: 0; 
+		  bottom: 0;
+		  min-width: 98%; 
+		  min-height: 100%;
+		  width: 100%; 
+		  height: auto;
+		  z-index: -100;
+		}
 .aos-all {
   width: 1000px;
   max-width: 98%;

@@ -94,7 +94,7 @@
       </video>
 
     </div>
-    <div id="overlay" class="text-center" style="margin-top:5%;">
+    <!-- <div id="overlay" class="text-center" style="margin-top:5%;"> -->
       <!-- <div class='main'>
               <div class='head'>
                 <h1>Blake Nischwitz</h1>
@@ -102,24 +102,49 @@
               <div>
 
               </div> -->
-      <h1 class="mb-5" style="text-align:center; color:antiquewhite;">BLAKE NISCHWITZ</h1>
+      <!-- <h1 class="mb-5" style="text-align:center; color:antiquewhite;">BLAKE NISCHWITZ</h1>
       <h3 class="mb-5" style="font-size:1em; color:antiquewhite;">
         3D Artist & Game Developer
-      </h3>
+      </h3>-->
+<!--
+autor: Marco Barría 
+https://twitter.com/marco_bf
+-->
+<div class="text">
+  <svg>
+   <defs>
+     <mask id="mask" x="0" y="0" width="100%" height="100%" >
+       <!-- alpha rectangle -->
+       <!-- rectángulo alfa -->
+       <rect id="alpha" x="0" y="0" width="100%" height="100%"/>
+       <!-- All text that you want -->
+       <!-- Coloca todo el texto que necesites -->
+       <text id="title" x="50%" y="0" dy="1.58em">BLAKE NISCHWITZ</text>
+       <text id="subtitle" x="50%" y="0" dy="9.8em">3D Artist & Game Developer</text>
+     </mask>
+    </defs>
+    <!-- Apply color here! -->
+    <!-- Color aquí -->
+    <rect id="base" x="0" y="0" width="100%" height="100%"/>
+  </svg>
+</div>  
 
   </header>
 
   <!-- About -->
 
-  <section class="content-section" id="about" style="background-color:antiquewhite;">
+  <section class="content-section aboutme" id="about" style="background-color:white;">
     <div class="container text-center">
       <div class="row" style="margin-top:10%; margin-bottom:10%;">
         <div class="col-lg-10 mx-auto">
-          <h2 style="color:#E80202; font-size:2em;">ABOUT ME</h2>
-          <hr id="first" class="blink_me" style="padding-bottom: 5%;">
-          <p class="lead mb-5" style="color:#0C1E68;">I'm a 3D Artist and Game Developer from Dayton, Ohio. I studied Interactive Media Studies at Miami University in
+          <h2 style="color:#D39E0A; font-size:2em;">ABOUT ME</h2>
+          <hr class="blink_me" style="padding-bottom: 5%; border-top-color:#3A5CAC;">
+    <p style="color:#001D60; font-size: 1.5em;">I'm a 3D Artist and Game Developer from Dayton, Ohio. I studied Interactive Media Studies at Miami University in
+        Oxford, Ohio. I'm currently finishing my degree in San Francisco, California while I intern with New Path VR.
+        I'm currently looking for full-time employment after graduation working in VR or 3D art.</p>
+          <!-- <p class="lead mb-5 example" style="color:#0C1E68;">I'm a 3D Artist and Game Developer from Dayton, Ohio. I studied Interactive Media Studies at Miami University in
             Oxford, Ohio. I'm currently finishing my degree in San Francisco, California while I intern with New Path VR.
-            I'm currently looking for full-time employment after graduation working in VR or 3D art.</p>
+            I'm currently looking for full-time employment after graduation working in VR or 3D art.</p> -->
         </div>
 
       </div>
@@ -141,19 +166,16 @@
         </div>
       </div>
     </section> -->
-  <section id="3d-art" style="padding-top:10%; background-color:#555199; padding-bottom:10%;">
-    <h2 class="text-center" style="color:antiquewhite; font-size:2em;">3D ART</h2>
+  <section id="3d-art" style="padding-top:10%; background-color:#3A5CAC; padding-bottom:10%;">
+    <h2 class="text-center" style="color:white; font-size:2em;">3D ART</h2>
     <hr class="blink_me">
     <div class="row">
       <div id="transcroller-body" class="aos-all">
         <div class="aos-item" data-aos="zoom-in">
-          <div class="aos-item__inner">
-            </div>
+<img src="img/thumbnails/Hang-thumbnail.gif">
         </div>
         <div class="aos-item" data-aos="zoom-in">
-          <div class="aos-item__inner">
-            <h3>2</h3>
-          </div>
+            <img src="img/thumbnails/Malechthumbnail.gif">
         </div>
         <div class="aos-item" data-aos="zoom-in">
           <div class="aos-item__inner">
@@ -169,9 +191,9 @@
     </div>
   </section>
 
-  <section id="vr" style="padding-top:10%; background-color:antiquewhite; padding-bottom:10%;">
-    <h2 class="text-center" style="color:#E80202; font-size:2em;">VR</h2>
-    <hr id="first" class="blink_me">
+  <section id="vr" style="padding-top:10%; background-color:white; padding-bottom:10%;">
+    <h2 class="text-center" style="color:#D39E0A; font-size:2em;">VR</h2>
+    <hr class="blink_me" style="border-top-color: #3A5CAC;">
     <div class="row">
       <div id="transcroller-body" class="aos-all">
         <div class="aos-item" data-aos="zoom-in">
@@ -192,8 +214,9 @@
     </div>
   </section>
 
-  <section id="fun" style="padding-top:10%;">
-    <h2 class="text-center">Other Projects</h2>
+  <section id="fun" style="padding-top:10%; padding-bottom: 10%; background-color: #3A5CAC;">
+    <h2 class="text-center" style="color:white;">OTHER PROJECTS</h2>
+    <hr class="blink_me">
     <div class="row">
       <div id="transcroller-body" class="aos-all">
         <div class="aos-item" data-aos="zoom-in">
@@ -216,7 +239,9 @@
   </section>
 
   <section id="contact">
-    <h2 class="text-center" style="margin-top:10%; margin-bottom:5%;">Contact Me</h2>
+    <h2 class="text-center" style="margin-top:10%; color:#D39E0A;">CONTACT ME</h2>
+    <hr class="blink_me" style="border-top-color: #3A5CAC;  margin-bottom:5%;">
+
     <div data-aos="fade-up">
 
       <div class="container" style="margin-top:5%; width:65%;">
@@ -234,7 +259,7 @@
               <div class="col-md-6 inputGroupContainer">
                 <div class="input-group">
                   <span class="input-group-addon">
-                    <i class="glyphicon glyphicon-user"></i>
+                    <i class="glyphicon glyphicon-user" style="color:#001D60;"></i>
                   </span>
                   <input name="first_name" placeholder="First Name" class="form-control" type="text">
                 </div>
@@ -248,7 +273,7 @@
               <div class="col-md-6 inputGroupContainer">
                 <div class="input-group">
                   <span class="input-group-addon">
-                    <i class="glyphicon glyphicon-user"></i>
+                    <i class="glyphicon glyphicon-user" style="color:#001D60;"></i>
                   </span>
                   <input name="last_name" placeholder="Last Name" class="form-control" type="text">
                 </div>
@@ -261,7 +286,7 @@
               <div class="col-md-6 inputGroupContainer">
                 <div class="input-group">
                   <span class="input-group-addon">
-                    <i class="glyphicon glyphicon-envelope"></i>
+                    <i class="glyphicon glyphicon-envelope" style="color:#001D60;"></i>
                   </span>
                   <input name="email" placeholder="E-Mail Address" class="form-control" type="text">
                 </div>
@@ -289,7 +314,7 @@
             <div class="form-group text-center" style="padding-top:3%;">
               <label class="col-md-4 control-label"></label>
               <div class="col-md-4">
-                <button type="submit" class="btn btn-primary">Send
+                <button type="submit" class="btn btn-blue">Send
                   <span class="glyphicon glyphicon-send"></span>
                 </button>
               </div>
@@ -377,7 +402,7 @@
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/stylish-portfolio.min.js"></script>
+  <script src="js/stylish-portfolio.js"></script>
 
 </body>
 
