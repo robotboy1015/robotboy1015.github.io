@@ -132,11 +132,9 @@ body {
   font-size: 32px;
   line-height: 32px;
 }
-label, glyphicon {
-	color:#001D60;
-}
-.btn-blue{
-	background-color:#3A5CAC;
+
+.btn-gray{
+	background-color:gray;
 	color: white;
 }
 
@@ -144,7 +142,7 @@ hr {
     display: block;
     height: 2%;
     border: 0;
-    border-top: 1px solid #D39E0A;
+    border-top: 1px solid gray;
     /* margin: 1em 0; */
 	padding: 0; 
 	width:10%;
@@ -162,7 +160,7 @@ hr {
 	  bottom: 0;
 	  min-width: 98%; 
 	  min-height: 100%;
-	  width: auto; 
+	  width: 100%; 
 	  height: auto;
 	  z-index: -100;
 	}
@@ -194,7 +192,7 @@ hr {
 	/* background-color: rgba(221, 221, 221, 0.3); */
 	/* width: 25%;
 	padding: 10px 0; */
-	z-index: 2147483647;
+	z-index: 100;
   }
   .blink_me {
 	animation: blinker 1s linear infinite;
@@ -215,7 +213,7 @@ hr {
 	font-size: 20px;
 	background-color: rgba(0, 0, 0, 0.5);
 	width: 30%;
-	z-index: 2147483647;
+	z-index: 100;
 	padding:1%;
 	padding-left:1.5%;
 	padding-right:1.5%;
@@ -338,7 +336,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #sidebar-wrapper {
 	position: fixed;
-	z-index: 2;
+	z-index: 101;
 	right: 0;
 	width: 250px;
 	height: 100%;
@@ -349,7 +347,8 @@ h1, h2, h3, h4, h5, h6 {
 	transition: all .4s ease 0s;
 	transform: translateX(250px);
 	background: white;
-	border-left: 1px solid rgba(255,255,255,.1)
+	border-left: 1px solid rgba(255,255,255,.1);
+	text-align:center;
 }
 .sidebar-nav {
 	position: absolute;
@@ -369,10 +368,14 @@ h1, h2, h3, h4, h5, h6 {
 	text-decoration: none;
 	color: rgba(52,58,64);;
 	/* background: rgba(255,255,255,.2) */
-	background: rgb(29, 164, 226, .2);
+	background: lightgray;
+
 }
 .sidebar-nav li a:active, .sidebar-nav li a:focus {
-	text-decoration: none
+	text-decoration: none;
+	z-index: 102;
+
+
 }
 .sidebar-nav > .sidebar-brand {
 	font-size: 1.2 rem;
@@ -381,7 +384,8 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 50px;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	padding-left: 15px
+	padding-left: 15px;
+
 }
 .sidebar-nav > .sidebar-brand a {
 	color: #fff
@@ -397,7 +401,9 @@ h1, h2, h3, h4, h5, h6 {
 	-moz-transition: all .4s ease 0s;
 	-ms-transition: all .4s ease 0s;
 	-o-transition: all .4s ease 0s;
-	transition: all .4s ease 0s
+	transition: all .4s ease 0s;
+	z-index: 102;
+
 }
 .menu-toggle {
 	position: fixed;
@@ -409,7 +415,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 	background: rgba(52,58,64,.5);
 	line-height: 50px;
-	z-index: 999
+	z-index:1000
 }
 .menu-toggle:focus, .menu-toggle:hover {
 	color: #fff

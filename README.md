@@ -32,17 +32,21 @@ Online art portfolio for 3D modeling and game design
         - [ ] Train
 
 ### General
-- [ ] Navigation
-- [ ] Colors??
+- [x] Navigation
+- [x] Colors - black & white
 - [ ] Contact/Social Media
-- [ ] Back to Home on pages
-- [ ] Go to Next Project (?)
-- [ ] Scroll to top on pages
+- [x] Back to Home on pages
+<!-- - [ ] Go to Next Project (?) -->
+- [x] Scroll to top on pages
 
 ### Clean
 - [ ] Clean up JS files
 - [ ] Clean up CSS file
 - [ ] Clean up index
 - [ ] Clean up file structures
+
+### Bugs
+
+- [ ] close nav button on main page
 
 
