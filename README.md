@@ -17,6 +17,8 @@ Online art portfolio for 3D modeling and game design
     - [ ] Hand Model
     - [ ] Man Model
     - [ ] Environment Art
+         - [ ] Pumpkin
+         - [ ] Log
 - [ ] VR
     - [ ] Role Play
     - [ ] Police Simulator
@@ -31,7 +33,6 @@ Online art portfolio for 3D modeling and game design
         - [ ] Lonely Robot
         - [ ] Dragon
     - [ ] W.I.P.
-        - [ ] Pumpkin
         - [ ] Train
 
 ### General
