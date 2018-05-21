@@ -7,13 +7,16 @@ Online art portfolio for 3D modeling and game design
 ### Pages
 - [ ] Main
     - [x] Landing screen
-    - [ ] Optimize for mobile
+    - [x] Optimize for mobile
     - [ ] Thumbnail images
+    - [ ] Contact/Social Media
+
 - [ ] 3D Art
     - [ ] Bunny Borg
     - [x] Malech Excellence
     - [ ] Hand Model
     - [ ] Man Model
+    - [ ] Environment Art
 - [ ] VR
     - [ ] Role Play
     - [ ] Police Simulator
@@ -34,7 +37,6 @@ Online art portfolio for 3D modeling and game design
 ### General
 - [x] Navigation
 - [x] Colors - black & white
-- [ ] Contact/Social Media
 - [x] Back to Home on pages
 <!-- - [ ] Go to Next Project (?) -->
 - [x] Scroll to top on pages
@@ -48,5 +50,7 @@ Online art portfolio for 3D modeling and game design
 ### Bugs
 
 - [ ] close nav button on main page
+- [x] white space on side of main (mobile and desktop)
+- [ ] grid system on main
 
 
