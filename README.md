@@ -8,24 +8,24 @@ Online art portfolio for 3D modeling and game design
 - [ ] Main
     - [x] Landing screen
     - [x] Optimize for mobile
-    - [ ] Thumbnail images
+    - [ ] Thumbnail images - NEED
     - [ ] Contact/Social Media
 
 - [ ] 3D Art
-    - [ ] Bunny Borg
+    - [ ] Bunny Borg - REVIEW
     - [x] Malech Excellence
-    - [ ] Hand Model
-    - [ ] Man Model
-    - [ ] Environment Art
+    - [x] Hand Model
+    - [x] Man Model
+    - [ ] Environment Art - CAN'T USE MVIEW
          - [ ] Pumpkin
          - [ ] Log
 - [ ] VR
-    - [ ] Role Play
-    - [ ] Police Simulator
-    - [ ] Knife Throwing
+    - [ ] Role Play - NEED
+    - [ ] Police Simulator - NEED
+    - [ ] Knife Throwing - NEED
     <!-- - [ ] Portals -- not yet -->
 - [ ] Other
-    - [ ] 2D
+    - [ ] 2D - REVIEW
         - [ ] New Follower animation
         - [ ] Supply Drop
     - [ ] Animations
