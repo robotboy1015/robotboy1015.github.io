@@ -29,10 +29,10 @@ Online art portfolio for 3D modeling and game design
         - [ ] New Follower animation
         - [ ] Supply Drop
     - [ ] Animations
-        - [ ] Idle
-        - [ ] Lonely Robot
-        - [ ] Dragon
-    - [ ] W.I.P.
+        - [ ] Idle - NEED
+        - [ ] Lonely Robot - NEED
+        - [ ] Dragon - NEED
+    - [ ] W.I.P. - REVIEW
         - [ ] Train
 
 ### General
