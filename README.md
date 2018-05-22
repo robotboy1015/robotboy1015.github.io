@@ -9,7 +9,7 @@ Online art portfolio for 3D modeling and game design
     - [x] Landing screen
     - [x] Optimize for mobile
     - [ ] Thumbnail images - NEED
-    - [ ] Contact/Social Media
+    - [x] Contact/Social Media
 
 - [ ] 3D Art
     - [ ] Bunny Borg - REVIEW
@@ -41,6 +41,7 @@ Online art portfolio for 3D modeling and game design
 - [x] Back to Home on pages
 <!-- - [ ] Go to Next Project (?) -->
 - [x] Scroll to top on pages
+- [ ] Tab Icon next to title - NEED
 
 ### Clean
 - [ ] Clean up JS files
