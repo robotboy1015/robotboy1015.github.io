@@ -12,28 +12,29 @@ Online art portfolio for 3D modeling and game design
     - [x] Contact/Social Media
 
 - [ ] 3D Art
-    - [ ] Bunny Borg - REVIEW
+    - [x] Bunny Borg
     - [x] Malech Excellence
     - [x] Hand Model
     - [x] Man Model
-    - [ ] Environment Art - CAN'T USE MVIEW
+    - [ ] Environment Art - REVIEW
          - [ ] Pumpkin
          - [ ] Log
+         - [ ] Modular Wall/Corner
 - [ ] VR
     - [ ] Role Play - NEED
-    - [ ] Police Simulator - NEED
-    - [ ] Knife Throwing - NEED
+    - [ ] Police Simulator - REVIEW
+    - [ ] Knife Throwing - REVIEW
     <!-- - [ ] Portals -- not yet -->
 - [ ] Other
-    - [ ] 2D - REVIEW
-        - [ ] New Follower animation
-        - [ ] Supply Drop
+    - [x] 2D
+        - [x] New Follower animation
+        - [x] Supply Drop
     - [ ] Animations
-        - [ ] Idle - NEED
-        - [ ] Lonely Robot - NEED
+        - [x] Idle
+        - [x] Lonely Robot
         - [ ] Dragon - NEED
-    - [ ] W.I.P. - REVIEW
-        - [ ] Train
+    - [x] W.I.P.
+        - [x] Train
 
 ### General
 - [x] Navigation
@@ -41,7 +42,7 @@ Online art portfolio for 3D modeling and game design
 - [x] Back to Home on pages
 <!-- - [ ] Go to Next Project (?) -->
 - [x] Scroll to top on pages
-- [ ] Tab Icon next to title - NEED
+- [ ] Favicon - REVIEW
 
 ### Clean
 - [ ] Clean up JS files
