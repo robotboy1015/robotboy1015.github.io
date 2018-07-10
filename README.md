@@ -7,23 +7,23 @@ Online art portfolio for 3D modeling and game design
 ### Pages
 - [ ] Main
     - [x] Landing screen
-    - [x] Optimize for mobile
-    - [ ] Thumbnail images - NEED
+    - [ ] Optimize for mobile
+    - [x] Thumbnail images
     - [x] Contact/Social Media
 
-- [ ] 3D Art
+- [x] 3D Art
     - [x] Bunny Borg
     - [x] Malech Excellence
     - [x] Hand Model
     - [x] Man Model
-    - [ ] Environment Art - REVIEW
-         - [ ] Pumpkin
-         - [ ] Log
-         - [ ] Modular Wall/Corner
+    - [x] Environment Art
+         - [x] Pumpkin
+         - [x] Log
+         - [x] Modular Wall/Corner
 - [ ] VR
-    - [ ] Role Play - NEED
-    - [ ] Police Simulator - REVIEW
-    - [ ] Knife Throwing - REVIEW
+    - [ ] Role Play - You only gave me text
+    - [ ] Police Simulator - Needs description
+    - [ ] Knife Throwing - Needs description
     <!-- - [ ] Portals -- not yet -->
 - [ ] Other
     - [x] 2D
@@ -42,7 +42,7 @@ Online art portfolio for 3D modeling and game design
 - [x] Back to Home on pages
 <!-- - [ ] Go to Next Project (?) -->
 - [x] Scroll to top on pages
-- [ ] Favicon - REVIEW
+- [ ] Favicon 
 
 ### Clean
 - [ ] Clean up JS files
